@@ -1,0 +1,20 @@
+{
+  "name": "api-study",
+  "version": "1.0.0",
+  "description": "API Study with nodejs + express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fernando Tosta",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "g": "^2.0.1",
+    "got": "^11.6.0",
+    "json-server": "^0.16.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
