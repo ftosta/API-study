@@ -1,4 +1,5 @@
 const got = require('got')
+const fs = require('fs')
 
 class DatabaseDevelopment {
     constructor(model = '') {
