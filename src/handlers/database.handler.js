@@ -1,43 +1,16 @@
-const got = require('got')
+require('dotenv').config()
+const DriverTest = require('./driver/test.driver')
 
 class Database {
     constructor(model = '') {
-        this.dbUri = 'http://localhost:3004/' + model
-        this.status = 404
-        this.response = {}
-    }
+        const env = process.env.NODE_ENV
+        const drivers = {}
 
-    async conn() {
-        try {
-            const response = await got(this.dbUri)
-            this.setResponse(response)
-            this.setStatus(200)
-            return this
-        } catch (errDatabaseConn) {
-            throw errDatabaseConn
-        }
+        drivers['test'] = DriverTest
+
+        const databaseInstance = new drivers[env](model)
         
-    }
-
-    getResponse() {
-        return this.response
-    }
-
-    setResponse(response) {
-        this.response = response
-    }
-
-    getResponseBody() {
-        const response = this.getResponse()
-        return JSON.parse(response['body'])
-    }
-
-    setStatus(status = 404) {
-        this.status = status
-    }
-
-    getStatus() {
-        return this.status
+        return databaseInstance
     }
 
 }
