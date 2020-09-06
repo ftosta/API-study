@@ -1,8 +1,8 @@
-const RepositoryInterface = require('./repositories/repository')
+const DatabaseDriver = require('../handlers/database.handler')
 
 class ExerciseModel {
     constructor() {
-        this.model = new RepositoryInterface('exercises')
+        this.model = new DatabaseDriver('exercises')
         return this.model
     }
 }
