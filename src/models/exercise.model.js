@@ -1,8 +1,8 @@
-const DatabaseDriver = require('../handlers/database.handler')
+const DBHandler = require('../handlers/database.handler')
 
 class ExerciseModel {
     constructor() {
-        this.model = new DatabaseDriver('exercises')
+        this.model = new DBHandler('exercises')
         return this.model
     }
 }
