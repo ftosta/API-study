@@ -1,4 +1,4 @@
-const ExerciseGenerator = require('./exercise.generators')
+const ExerciseGenerator = require('./exercise.generator')
 const fs = require('fs')
 
 console.log('Generate Fake data')
