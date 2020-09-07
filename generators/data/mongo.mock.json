@@ -1,74 +1,94 @@
 {
+	"users": [
+		{
+			"_id": "76ad1603-b7ee-4c8f-ba41-d948630cfc15",
+			"name": "Fernando Towne",
+			"username": "Greg39",
+			"email": "Carole.Muller@hotmail.com"
+		},
+		{
+			"_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
+			"name": "Sonya Littel",
+			"username": "Peter94",
+			"email": "Alisa.Murray@hotmail.com"
+		},
+		{
+			"_id": "ee2bca49-81c5-4e2a-be0f-7e42b5779987",
+			"name": "Juana Little",
+			"username": "Derek22",
+			"email": "Elbert.Bradtke93@gmail.com"
+		}
+	],
 	"exercises": [
 		{
-			"_id": "9e0def84-0187-48d2-9774-89884915fc0f",
-			"title": "voluptas maxime libero",
-			"description": "Ducimus eius in quisquam nemo officiis eligendi ut exercitationem ut.",
-			"duration": 5413,
-			"date": "2020-09-05T14:20:23.088Z"
+			"_id": "b3f69d5f-85a1-417a-94d4-7a71b2953457",
+			"title": "reprehenderit et aspernatur",
+			"description": "Corrupti est qui ea qui.",
+			"duration": 54529,
+			"date": "2020-09-06T15:19:36.643Z"
 		},
 		{
-			"_id": "b99c356e-5f83-4bec-b2b1-e5b643df6fca",
-			"title": "aut laudantium sunt",
-			"description": "Nesciunt ut est provident.",
-			"duration": 26733,
-			"date": "2020-09-05T19:23:53.110Z"
+			"_id": "ee166521-cb20-4abc-b599-63239ea8afee",
+			"title": "ullam mollitia ut",
+			"description": "Nulla commodi et deserunt et est.",
+			"duration": 80219,
+			"date": "2020-09-06T05:56:43.900Z"
 		},
 		{
-			"_id": "1057d8c5-faad-45de-af50-aa2c733e7c99",
-			"title": "est eos quas",
-			"description": "Qui ab quia omnis.",
-			"duration": 21886,
-			"date": "2020-09-05T10:21:13.006Z"
+			"_id": "2382dbe1-de3f-40c0-9c06-37f23c09e36f",
+			"title": "rem rem enim",
+			"description": "Aliquam beatae nisi natus qui dolor omnis distinctio deleniti error.",
+			"duration": 12986,
+			"date": "2020-09-06T12:30:03.134Z"
 		},
 		{
-			"_id": "f8b52d58-01c8-41c6-b2b3-2c20315ec63a",
-			"title": "asperiores sed et",
-			"description": "Enim quo ipsum nostrum eos quis voluptatem veniam voluptate aut.",
-			"duration": 13758,
-			"date": "2020-09-05T18:41:07.853Z"
+			"_id": "0553b0cf-d994-4896-a563-42532353f740",
+			"title": "voluptas fugit beatae",
+			"description": "In delectus ut itaque a et nobis in et aut.",
+			"duration": 78352,
+			"date": "2020-09-06T21:14:48.997Z"
 		},
 		{
-			"_id": "a213eff7-7a0c-4611-8c81-a9528891cdd1",
-			"title": "ut dolorem est",
-			"description": "Eius dicta facere.",
-			"duration": 73473,
-			"date": "2020-09-05T22:43:05.866Z"
+			"_id": "2ededb3a-3d50-4a71-8ca3-10be9c13256d",
+			"title": "fuga impedit voluptate",
+			"description": "Voluptatem voluptas dignissimos molestiae ipsam mollitia autem unde animi.",
+			"duration": 19829,
+			"date": "2020-09-06T10:34:33.557Z"
 		},
 		{
-			"_id": "e39b5606-26ca-4803-a054-8d7b88e06724",
-			"title": "et et laboriosam",
-			"description": "Consequuntur quae consequatur rerum facilis.",
-			"duration": 93919,
-			"date": "2020-09-05T19:55:07.149Z"
+			"_id": "38b4e66c-9d44-4fe7-9ed6-e85a93799e79",
+			"title": "molestiae omnis quibusdam",
+			"description": "Et atque expedita vel quibusdam.",
+			"duration": 55068,
+			"date": "2020-09-06T07:03:31.231Z"
 		},
 		{
-			"_id": "775279e5-bf91-43d5-893b-a6ca61931be2",
-			"title": "sit dignissimos aliquid",
-			"description": "Consequuntur deleniti maxime aut aperiam.",
-			"duration": 68631,
-			"date": "2020-09-05T17:51:50.423Z"
+			"_id": "5d636f54-6af7-496e-bce2-84c9d82351a5",
+			"title": "aut eaque totam",
+			"description": "Quam qui excepturi ut et sit voluptatem.",
+			"duration": 32862,
+			"date": "2020-09-06T11:49:53.593Z"
 		},
 		{
-			"_id": "08c169fe-e9e5-4128-870f-f8eb0e7bd44e",
-			"title": "cum magnam officia",
-			"description": "Ex molestias ut distinctio optio consectetur ut optio accusantium est.",
-			"duration": 44720,
-			"date": "2020-09-05T18:09:55.519Z"
+			"_id": "b27e94aa-e402-4c85-9e5f-d7397d3f578f",
+			"title": "earum quia aperiam",
+			"description": "Ullam ratione iste aspernatur dolorum.",
+			"duration": 87701,
+			"date": "2020-09-06T19:58:35.361Z"
 		},
 		{
-			"_id": "0feff40e-badc-4ffc-a681-79baf7cc0bbd",
-			"title": "mollitia et quia",
-			"description": "Rerum eum autem quia ea et dolore vel.",
-			"duration": 37498,
-			"date": "2020-09-06T01:25:50.585Z"
+			"_id": "52275163-9ef6-4dba-9a28-103b4c9a31db",
+			"title": "optio iste incidunt",
+			"description": "Commodi excepturi et.",
+			"duration": 60561,
+			"date": "2020-09-06T10:43:36.175Z"
 		},
 		{
-			"_id": "04d4f5d8-d814-4cef-aa6b-71ae15a26e0a",
-			"title": "autem maiores ex",
-			"description": "Quam eum corporis itaque asperiores illum.",
-			"duration": 96517,
-			"date": "2020-09-05T14:43:23.629Z"
+			"_id": "35e8e8a5-02fa-4321-b374-8faf1a3db8a0",
+			"title": "laudantium mollitia suscipit",
+			"description": "Voluptatem sit est ut dignissimos dolor et.",
+			"duration": 11302,
+			"date": "2020-09-06T22:27:27.873Z"
 		}
 	]
 }
