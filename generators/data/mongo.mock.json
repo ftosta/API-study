@@ -22,6 +22,7 @@
 	"exercises": [
 		{
 			"_id": "b3f69d5f-85a1-417a-94d4-7a71b2953457",
+			"user_id": "ee2bca49-81c5-4e2a-be0f-7e42b5779987",
 			"title": "reprehenderit et aspernatur",
 			"description": "Corrupti est qui ea qui.",
 			"duration": 54529,
@@ -29,6 +30,7 @@
 		},
 		{
 			"_id": "ee166521-cb20-4abc-b599-63239ea8afee",
+			"user_id": "ee2bca49-81c5-4e2a-be0f-7e42b5779987",
 			"title": "ullam mollitia ut",
 			"description": "Nulla commodi et deserunt et est.",
 			"duration": 80219,
@@ -36,6 +38,7 @@
 		},
 		{
 			"_id": "2382dbe1-de3f-40c0-9c06-37f23c09e36f",
+			"user_id": "ee2bca49-81c5-4e2a-be0f-7e42b5779987",
 			"title": "rem rem enim",
 			"description": "Aliquam beatae nisi natus qui dolor omnis distinctio deleniti error.",
 			"duration": 12986,
@@ -43,6 +46,7 @@
 		},
 		{
 			"_id": "0553b0cf-d994-4896-a563-42532353f740",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "voluptas fugit beatae",
 			"description": "In delectus ut itaque a et nobis in et aut.",
 			"duration": 78352,
@@ -50,6 +54,7 @@
 		},
 		{
 			"_id": "2ededb3a-3d50-4a71-8ca3-10be9c13256d",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "fuga impedit voluptate",
 			"description": "Voluptatem voluptas dignissimos molestiae ipsam mollitia autem unde animi.",
 			"duration": 19829,
@@ -57,6 +62,7 @@
 		},
 		{
 			"_id": "38b4e66c-9d44-4fe7-9ed6-e85a93799e79",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "molestiae omnis quibusdam",
 			"description": "Et atque expedita vel quibusdam.",
 			"duration": 55068,
@@ -64,6 +70,7 @@
 		},
 		{
 			"_id": "5d636f54-6af7-496e-bce2-84c9d82351a5",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "aut eaque totam",
 			"description": "Quam qui excepturi ut et sit voluptatem.",
 			"duration": 32862,
@@ -71,6 +78,7 @@
 		},
 		{
 			"_id": "b27e94aa-e402-4c85-9e5f-d7397d3f578f",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "earum quia aperiam",
 			"description": "Ullam ratione iste aspernatur dolorum.",
 			"duration": 87701,
@@ -78,6 +86,7 @@
 		},
 		{
 			"_id": "52275163-9ef6-4dba-9a28-103b4c9a31db",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "optio iste incidunt",
 			"description": "Commodi excepturi et.",
 			"duration": 60561,
@@ -85,6 +94,7 @@
 		},
 		{
 			"_id": "35e8e8a5-02fa-4321-b374-8faf1a3db8a0",
+			"user_id": "89793e14-625a-4cdf-933c-d4ee54d3372c",
 			"title": "laudantium mollitia suscipit",
 			"description": "Voluptatem sit est ut dignissimos dolor et.",
 			"duration": 11302,
