@@ -2,15 +2,18 @@ const ExerciseModel = require('../../src/models/exercise.model')
 const Faker = require('faker')
 
 describe('Quando instanciar ExerciseModel', () => {
+
+    const mock = {
+        "_id": "ee166521-cb20-4abc-b599-63239ea8afee",
+        "title": "ullam mollitia ut",
+        "description": "Nulla commodi et deserunt et est.",
+        "duration": 80219,
+        "date": "2020-09-06T05:56:43.900Z"
+    }
+
     describe('Deve conter os métodos', () => {
 
-        const mock = {
-			_id: "ef232000-eefb-11ea-adc1-0242ac120002",
-			title: "TDD CREATE",
-			description: "TDD CREATE DESCRIPTION",
-			duration: 53889,
-			date: "2020-09-04T17:29:13.338Z"
-		}
+        
 
         test('#find', async () => {
             const exercise = new ExerciseModel()
@@ -44,9 +47,9 @@ describe('Quando instanciar ExerciseModel', () => {
 
         test('#findOne: apenas 1 registro', async () => {
             const exercise = new ExerciseModel()
-            const data = await exercise.findOne(1)
+            const data = await exercise.findOne(mock._id)
 
-            expect(data).toHaveProperty('title')
+            expect(data).toMatchObject({'_id' : mock._id})
         })
 
         test('#create: criar o registro e retornar o total de registros novos', async () => {

@@ -9,9 +9,9 @@ class DatabaseDevelopment {
         return this
     }
 
-    async conn() {
+    async conn(params = '?') {
         try {
-            const response = await got(this.dbUri)
+            const response = await got(this.dbUri + params)
             this.setResponse(response)
             this.setStatus(200)
             return this
@@ -53,7 +53,7 @@ class DatabaseDevelopment {
 
     async findOne(_id) {
         try {
-            const conn = await this.conn()
+            const conn = await this.conn('?_id=' + _id)
             const data = conn.getResponseBody()
             const response = data.shift()
 
