@@ -1,25 +1,21 @@
 const ExerciseModel = require('../../src/models/exercise.model')
 
-class ExerciseController {
-    constructor(env = false) {
-        this.env = env // porq não consigo acessar dentro de outros métodos? no ambiente de testes funciona | talves sejá o método list sendo usado como callback?
-    }
+const list = async (req = false, res = 'test') => {
+    const env = process.env.NODE_ENV
+    console.log('adasdasdasd list')
 
-    async list(req, res) {
-        const env = process.env.NODE_ENV
+    try {
+        const exercises = new ExerciseModel()
+        const exerciseList = await exercises.find()
 
-        try {
-            const exercises = new ExerciseModel()
-            const exerciseList = await exercises.find()
+        if (env === 'test')
+            return exerciseList
 
-            if (env === 'test')
-                return exerciseList
-
-            return res.json(exerciseList)
-        } catch(errExerciseControllerList) {
-            throw errExerciseControllerList
-        }
+        return res.json(exerciseList)
+    } catch(errExerciseControllerList) {
+        throw errExerciseControllerList
     }
 }
 
-module.exports = ExerciseController
+
+module.exports = {list}

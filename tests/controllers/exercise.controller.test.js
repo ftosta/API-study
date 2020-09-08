@@ -1,4 +1,7 @@
-const ExerciseController = require('../../src/controllers/exercise.controller')
+const app = require('../../src/server')
+const supertest = require('supertest')
+
+const request = supertest(app)
 
 describe('Ao acessar a rotar Exercises', () => {
 
@@ -9,18 +12,12 @@ describe('Ao acessar a rotar Exercises', () => {
         "email": "Elbert.Bradtke93@gmail.com"
     }
 
-    test('Rota / deve existir', async () => {
-        const exercise = new ExerciseController('test')
-        
-        expect.assertions(1)
-        return expect(exercise.list(false, false)).resolves.not.toThrow()
-    })
-
-    test('Rota / deve retonar uma listagem de exercicios', async () => {
-        const exercise = new ExerciseController('test')
-        const exerciseList = await exercise.list(false,false)
-        
-        expect(exerciseList.length).toBeGreaterThanOrEqual(0)
-    })
+    describe('Ao acessar a rota /', () => {
+        test('Não deve retornar erro', async () => {
+            const response = await request.get('exercises/')
+            expect(response.status).toBe(200)
+            done()
+        })
+    }) 
 
 })
