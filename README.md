@@ -8,7 +8,6 @@ This is a refactoring of https://github.com/ftosta/MERN-exercise-tracker
 - [x] Implement Exercise Model
 - [x] Implement User Model
 - [ ] Integrate Exercises and Users
-- [ ] Exercise list route
 - [ ] Exercise CRUD route
 - [ ] User CRUD route
 - [ ] Implement API Auth
