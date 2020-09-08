@@ -53,23 +53,13 @@ describe('Quando instanciar ExerciseModel', () => {
         })
 
         test('#create: criar o registro e retornar o total de registros novos', async () => {
-            const mock = {
-                _id : Faker.random.uuid(),
-                title : Faker.lorem.words(),
-                description : Faker.lorem.sentence(),
-                duration : Faker.random.number(),
-                date : Faker.date.recent()
-            }
-
-            const exercise = new ExerciseModel()
-            const currentData = await exercise.find()
-            const currentRows = currentData.length
 
             const exerciseCreate = new ExerciseModel()
             const dataCreated = await exerciseCreate.create(mock)
-            const currentRowsNew = dataCreated.length
 
-            expect(currentRowsNew).toBeGreaterThan(currentRows)
+            expect(dataCreated).toEqual(
+                expect.objectContaining(mock)
+            )
 
         })
         

@@ -51,23 +51,13 @@ describe('Quando instanciar UserModel', () => {
         })
 
         test('#create: criar o registro e retornar o total de registros novos', async () => {
-            const mock = {
-                _id : Faker.random.uuid(),
-                title : Faker.lorem.words(),
-                description : Faker.lorem.sentence(),
-                duration : Faker.random.number(),
-                date : Faker.date.recent()
-            }
-
-            const user = new UserModel()
-            const currentData = await user.find()
-            const currentRows = currentData.length
 
             const userCreate = new UserModel()
             const dataCreated = await userCreate.create(mock)
-            const currentRowsNew = dataCreated.length
 
-            expect(currentRowsNew).toBeGreaterThan(currentRows)
+            expect(dataCreated).toEqual(
+                expect.objectContaining(mock)
+            )
 
         })
         

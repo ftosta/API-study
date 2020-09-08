@@ -64,10 +64,12 @@ class DatabaseDevelopment {
 
     async create(data) {
         try {
-            const allRows = await this.find()
-            const allRowsWithNew = allRows.concat(data)
+            
+            /**
+             * do something
+             */
  
-            return allRowsWithNew
+            return data
         } catch (eRepositoryInterfaceCreate) {
             throw eRepositoryInterfaceCreate
         }
