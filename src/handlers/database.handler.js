@@ -10,7 +10,7 @@ class Database {
         drivers['dev'] = DriverTest
 
         const databaseInstance = new drivers[env](model)
-        
+
         return databaseInstance
     }
 

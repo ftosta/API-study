@@ -13,8 +13,6 @@ describe('Quando instanciar ExerciseModel', () => {
 
     describe('Deve conter os métodos', () => {
 
-        
-
         test('#find', async () => {
             const exercise = new ExerciseModel()
 

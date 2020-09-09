@@ -2,7 +2,6 @@ const app = require('../../src/server')
 const supertest = require('supertest')
 
 const request = supertest(app)
-// app.listen(3010)
 
 describe('Ao acessar a rotar Exercises', () => {
 
