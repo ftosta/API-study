@@ -1,8 +1,8 @@
 const router = require('express').Router()
-const {list, create} = require('../controllers/exercise.controller.js')
+const ExercisesController = require('../controllers/exercise.controller.js')
 
-router.route('/').get(list)
-router.route('/create').post(create)
+router.route('/').get(ExercisesController.list)
+router.route('/create').post(ExercisesController.create)
 
 
 module.exports = router
