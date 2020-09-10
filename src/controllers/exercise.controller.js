@@ -30,6 +30,17 @@ class ExercisesController {
             throw errExerciseControllerCreate
         }
     }
+
+    async delete(req, res) {
+        try {
+            const exercises = new ExerciseModel()
+            const exerciseDelete = await exercises.delete(req.body.id)
+
+            return res.json(exerciseDelete)
+        } catch (errExerciseControllerDelete){
+            throw errExerciseControllerDelete
+        }
+    }
 }
 
 module.exports = new ExercisesController

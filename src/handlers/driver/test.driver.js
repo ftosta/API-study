@@ -75,6 +75,17 @@ class DatabaseDevelopment {
         }
     }
 
+    async delete(id) {
+        try {
+            /**
+             * delete
+             */
+            return true
+        } catch (eRepositoryInterfaceDelete) {
+            throw eRepositoryInterfaceDelete
+        }
+    }
+
     randomId() {
         const rnd = Math.floor(Math.random() * 10) + 1;
         return rnd -1 // from 0 to 9

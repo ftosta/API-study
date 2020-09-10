@@ -57,4 +57,19 @@ describe('Ao acessar a rotar Exercises', () => {
         })
     })
 
+    describe('DELETE /:id', () => {
+
+        test('Deve retornar status 200', async (done) => {
+            const response = await request.delete(`${uri}${mock._id}`)
+            expect(response.status).toBe(200)
+            done()
+        })
+
+        test('Deve retornar true', async (done) => {
+            const response = await request.delete(`${uri}${mock._id}`)
+            expect(response.body).toBe(true)
+            done()
+        })
+    })
+
 })
